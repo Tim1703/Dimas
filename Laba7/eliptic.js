@@ -1,6 +1,8 @@
 const Eyler = require('./eyler');
 const eyler = new Eyler();
 class Eliptic{
+    constructor(a,b){
+    }
 
     sum(x1,y1,x2,y2,mod){
         let lam = ((y2-y1)*eyler.getreverse((x2-x1),mod))%mod;
