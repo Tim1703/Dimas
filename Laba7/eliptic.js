@@ -2,7 +2,6 @@ const Eyler = require('./eyler');
 const eyler = new Eyler();
 class Eliptic{
     constructor(a,b){
-        console.log(a,b);
     }
 
     sum(x1,y1,x2,y2,mod){
